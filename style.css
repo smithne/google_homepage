@@ -1,0 +1,82 @@
+.button {
+    background-color: rgb(236, 236, 236); /* Gray */
+    padding: 9px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search_box {
+    width: 35%;
+    height:32px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 16px;
+    padding: 2px;
+    box-shadow: 2px 2px 1px rgb(201, 201, 201);
+    font-size: 16px;
+}
+
+.top_nav {
+    display: grid;
+    grid-template-rows: 35px;
+    grid-template-columns: 50px 50px 1fr 50px 50px 50px 50px;
+    margin: 15px;
+}
+
+.top_nav_item {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows: 35px;
+    grid-template-columns: 75px 75px 1fr 75px 75px 75px;
+    background-color: rgb(240, 240, 240);
+    border-top: 1px solid lightgray;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.footer_item {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 35px;
+}
+
+.top_nav_item img {
+    height: 75%;
+    vertical-align: middle;
+}
+
+#profile_pic {
+    border-radius: 50%;
+    height: 100%;
+}
+
+.main {
+    display: grid;
+    margin: 150px 20px 100px 20px; 
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 3fr;
+    grid-row-gap: 20px;
+}
+
+.main_item {
+    text-align: center;
+}
+
+.main_item img {
+    height: 75px;
+}
+
+body {
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
